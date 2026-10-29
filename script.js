@@ -8,6 +8,7 @@ const getSum = () => {
 	Element.querySelectorAll(td .price).forEach((val) => {
 		sum += val;
 })
+	return sum;
   
 };
 
