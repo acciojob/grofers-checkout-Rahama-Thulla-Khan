@@ -5,7 +5,7 @@ document.body.appendChild(getSumBtn);
 const getSum = () => {
 	let sum  = 0;
 //Add your code here
-	Element.querySelectorAll(.price).forEach((val) => {
+	document.querySelectorAll(.price).forEach((val) => {
 		sum += val;
 })
 	return sum;
